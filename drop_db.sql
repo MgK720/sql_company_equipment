@@ -1,0 +1,12 @@
+drop TRIGGER IF EXISTS archiwizuj on pracownik;
+drop trigger IF EXISTS pomieszczenie_sprawdzanie on pomieszczenie;
+drop FUNCTION IF EXISTS archiwizuj;
+drop FUNCTION IF EXISTS sprawdzanie_powierzchni_pomieszczenia;
+DROP VIEW IF EXISTS administracja;
+drop table IF EXISTS nowy_pracownik_log;
+DROP TABLE IF EXISTS sprzet_pracownik;
+DROP TABLE IF EXISTS pracownik;
+DROP TABLE IF EXISTS  sprzet;
+DROP TABLE IF EXISTS pomieszczenie;
+DROP TABLE IF EXISTS stopien_bezpieczenstwa;
+DROP TABLE IF EXISTS budynek;
